@@ -1,20 +1,3 @@
-==============================================================================
-saccharomyces-pythia: an ML/AI-integrated *Saccharomyces cerevisiae* assistant
-==============================================================================
-<<<<<<< Updated upstream
-
-Introduction
-============
-
-**saccharomyces-pythia** is the new, rebranded v1.0.0 of SacCerML. 
-
-Initially conceived as a Python script that leveraged machine learning and bioinformatics tools to predict genes in Saccharomyces cerevisiae (baker's yeast) genomic sequences, it is now a complete and AI-integrated tool that can help researchers both as a chatbot and as a ORF-predicter. 
-
-SacCerML: the base ML model
-===========================
-
-=======
-
 .. raw:: html
 
    <table>
@@ -29,19 +12,32 @@ SacCerML: the base ML model
    <img src="https://img.shields.io/badge/saccharomyces pythia-stable-green" alt="Static Badge">
    </td>
    <td>
-   <img src="https://img.shields.io/badge/resistBERT-unstable-orange" alt="Static Badge">
+   <img src="https://img.shields.io/badge/Release-v1.0.0-purple" alt="Static Badge">
    </td>
    <td>
-   <img src="https://img.shields.io/badge/Release-v0.1.1-purple" alt="Static Badge">
-   </td>
-   <td>
-   <img src="https://img.shields.io/badge/Docker_image_size-6.6GB-red" alt="Static Badge">
+   <img src="https://img.shields.io/badge/Docker_image_size-7GB-red" alt="Static Badge">
    </td>
    <td>
    <img src="https://img.shields.io/badge/Supported_platforms-linux/amd64-brown" alt="Static Badge">
    </td> 
    </tr>
    </table>
+
+==============================================================================
+saccharomyces-pythia: an ML/AI-integrated *Saccharomyces cerevisiae* assistant
+==============================================================================
+
+Introduction
+============
+
+**saccharomyces-pythia** is the new, rebranded v1.0.0 of SacCerML. 
+
+Initially conceived as a Python script that leveraged machine learning and bioinformatics tools to predict genes in Saccharomyces cerevisiae (baker's yeast) genomic sequences, it is now a complete and AI-integrated tool that can help researchers both as a chatbot and as a ORF-predicter. 
+
+SacCerML: the base ML model
+===========================
+
+
 
 Introduction
 ============
@@ -119,11 +115,8 @@ You can find all the test results `here <https://github.com/AstraBert/tree/main/
 Generally, the model performed well: it had overall accuracy, f1, precision and recall score always above 86%. Nevertheless, the slight bias towards verified and dubious ORFs was confirmed, though uncharacterized ORFs too were well detected in several tests. 
 
 saccharomyces-pythia: gene calling and AI integration
-<<<<<<< Updated upstream
 =====================================================
-=======
-===============================
->>>>>>> Stashed changes
+
 
 SacCerML has now reached a new stage of its development (v1.0.0), where it has been rebranded as **saccharomyces-pythia**.
 
