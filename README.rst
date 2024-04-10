@@ -48,6 +48,7 @@ These genetic sequences were split according to their ORF classification (verifi
 - Checksum 
 
 After that, DNA was translated into aminoacids and other descriptors were retrieved:
+
 - Hydrophobicity
 - Isoelectric point
 - Aromaticity
