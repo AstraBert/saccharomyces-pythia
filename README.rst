@@ -6,9 +6,6 @@
    <img src="https://img.shields.io/github/languages/top/AstraBert/saccharomyces-pythia" alt="GitHub top language">
    </td>
    <td>
-   <img src="https://img.shields.io/github/languages/top/AstraBert/saccharomyces-pythia" alt="GitHub commit activity">
-   </td>
-   <td>
    <img src="https://img.shields.io/badge/saccharomyces pythia-stable-green" alt="Static Badge">
    </td>
    <td>
