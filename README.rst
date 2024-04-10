@@ -1,6 +1,7 @@
 ==============================================================================
 saccharomyces-pythia: an ML/AI-integrated *Saccharomyces cerevisiae* assistant
 ==============================================================================
+<<<<<<< Updated upstream
 
 Introduction
 ============
@@ -12,6 +13,47 @@ Initially conceived as a Python script that leveraged machine learning and bioin
 SacCerML: the base ML model
 ===========================
 
+=======
+
+.. raw:: html
+
+   <table>
+   <tr>
+   <td>
+   <img src="https://img.shields.io/github/languages/top/AstraBert/saccharomyces-pythia" alt="GitHub top language">
+   </td>
+   <td>
+   <img src="https://img.shields.io/github/languages/top/AstraBert/saccharomyces-pythia" alt="GitHub commit activity">
+   </td>
+   <td>
+   <img src="https://img.shields.io/badge/saccharomyces pythia-stable-green" alt="Static Badge">
+   </td>
+   <td>
+   <img src="https://img.shields.io/badge/resistBERT-unstable-orange" alt="Static Badge">
+   </td>
+   <td>
+   <img src="https://img.shields.io/badge/Release-v0.1.1-purple" alt="Static Badge">
+   </td>
+   <td>
+   <img src="https://img.shields.io/badge/Docker_image_size-6.6GB-red" alt="Static Badge">
+   </td>
+   <td>
+   <img src="https://img.shields.io/badge/Supported_platforms-linux/amd64-brown" alt="Static Badge">
+   </td> 
+   </tr>
+   </table>
+
+Introduction
+============
+
+**saccharomyces-pythia** is the new, rebranded v1.0.0 of SacCerML. 
+
+Initially conceived as a Python script that leveraged machine learning and bioinformatics tools to predict genes in Saccharomyces cerevisiae (baker's yeast) genomic sequences, it is now a complete and AI-integrated tool that can help researchers both as a chatbot and as a ORF-predicter. 
+
+SacCerML: the base ML model
+=================
+
+>>>>>>> Stashed changes
 Training
 --------
 
@@ -77,7 +119,11 @@ You can find all the test results `here <https://github.com/AstraBert/tree/main/
 Generally, the model performed well: it had overall accuracy, f1, precision and recall score always above 86%. Nevertheless, the slight bias towards verified and dubious ORFs was confirmed, though uncharacterized ORFs too were well detected in several tests. 
 
 saccharomyces-pythia: gene calling and AI integration
+<<<<<<< Updated upstream
 =====================================================
+=======
+===============================
+>>>>>>> Stashed changes
 
 SacCerML has now reached a new stage of its development (v1.0.0), where it has been rebranded as **saccharomyces-pythia**.
 
@@ -113,4 +159,8 @@ The project is hereby provided under MIT license.
 
 If you are using saccharomyces-pythia for your work, please consider citing its author, `Astra Bertelli <https://astrabert.vercel.app>`_ 
 
+<<<<<<< Updated upstream
 *How was this README generated? Leveraging the power of AI with reAIdme, an HuggingChat assistant based on mistralai/Mixtral-8x7B-Instruct-v0.1. Go and give it a try at this link: <https://hf.co/chat/assistant/660d9a4f590a7924eed02a32!> 🤖*
+=======
+How was this README generated? Leveraging the power of AI with reAIdme, an HuggingChat assistant based on meta-llama/Llama-2-70b-chat-hf. Go and give it a try at this link: <https://hf.co/chat/assistant/660d9a4f590a7924eed02a32!> 🤖
+>>>>>>> Stashed changes
