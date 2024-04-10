@@ -1,0 +1,190 @@
+TEST RESULTS
+TEST on test/test1.csv
+-Accuracy: 0.8841373499052033
+-f1: 0.8700318219335068
+-Precision: 0.8738336757878499
+-Recall:0.8841373499052033
+Classification report:
+                       precision    recall  f1-score   support
+
+          Dubious_ORF       0.92      0.79      0.85       627
+  Uncharacterized_ORF       0.72      0.40      0.51       659
+         Verified_ORF       0.89      0.99      0.94      3461
+blocked_reading_frame       0.00      0.00      0.00         0
+
+             accuracy                           0.88      4747
+            macro avg       0.63      0.55      0.58      4747
+         weighted avg       0.87      0.88      0.87      4747
+
+
+
+TEST on test/test2.csv
+-Accuracy: 0.9383630178106864
+-f1: 0.9279801037937842
+-Precision: 0.9293201664298373
+-Recall:0.9383630178106864
+Classification report:
+                     precision    recall  f1-score   support
+
+        Dubious_ORF       0.70      0.33      0.44        92
+Uncharacterized_ORF       0.77      0.43      0.55       423
+       Verified_ORF       0.95      1.00      0.97      4482
+
+           accuracy                           0.94      4997
+          macro avg       0.81      0.59      0.66      4997
+       weighted avg       0.93      0.94      0.93      4997
+
+
+
+TEST on test/test3.csv
+-Accuracy: 0.9561319855044822
+-f1: 0.9507283155463278
+-Precision: 0.9536682609451074
+-Recall:0.9561319855044822
+Classification report:
+                     precision    recall  f1-score   support
+
+        Dubious_ORF       0.92      0.32      0.48       140
+Uncharacterized_ORF       0.78      0.71      0.75       459
+       Verified_ORF       0.97      1.00      0.99      4644
+
+           accuracy                           0.96      5243
+          macro avg       0.89      0.68      0.74      5243
+       weighted avg       0.95      0.96      0.95      5243
+
+
+
+TEST on test/test4.csv
+-Accuracy: 0.889181561618062
+-f1: 0.8745496793877194
+-Precision: 0.8791026323584683
+-Recall:0.889181561618062
+Classification report:
+                       precision    recall  f1-score   support
+
+          Dubious_ORF       0.93      0.80      0.86       685
+  Uncharacterized_ORF       0.73      0.39      0.50       721
+         Verified_ORF       0.90      1.00      0.95      3909
+blocked_reading_frame       0.00      0.00      0.00         0
+
+             accuracy                           0.89      5315
+            macro avg       0.64      0.55      0.58      5315
+         weighted avg       0.88      0.89      0.87      5315
+
+
+
+TEST on test/test5.csv
+-Accuracy: 0.9829043411448329
+-f1: 0.9827779530471569
+-Precision: 0.984334357856436
+-Recall:0.9829043411448329
+Classification report:
+                       precision    recall  f1-score   support
+
+          Dubious_ORF       0.62      0.91      0.74        34
+  Uncharacterized_ORF       0.99      0.83      0.90       429
+         Verified_ORF       0.99      1.00      0.99      4743
+blocked_reading_frame       0.00      0.00      0.00         0
+
+             accuracy                           0.98      5206
+            macro avg       0.65      0.68      0.66      5206
+         weighted avg       0.98      0.98      0.98      5206
+
+
+
+TEST on test/test6.csv
+-Accuracy: 0.8876945291192042
+-f1: 0.8693244409905547
+-Precision: 0.8754374790636607
+-Recall:0.8876945291192042
+Classification report:
+                       precision    recall  f1-score   support
+
+          Dubious_ORF       0.94      0.80      0.86       722
+  Uncharacterized_ORF       0.71      0.32      0.44       803
+         Verified_ORF       0.89      1.00      0.94      4708
+blocked_reading_frame       0.00      0.00      0.00         0
+
+             accuracy                           0.89      6233
+            macro avg       0.64      0.53      0.56      6233
+         weighted avg       0.88      0.89      0.87      6233
+
+
+
+TEST on test/test7.csv
+-Accuracy: 0.8730615507593925
+-f1: 0.8537112866428141
+-Precision: 0.8567884594848729
+-Recall:0.8730615507593925
+Classification report:
+                       precision    recall  f1-score   support
+
+          Dubious_ORF       0.84      0.78      0.81       711
+  Uncharacterized_ORF       0.67      0.30      0.41       806
+         Verified_ORF       0.89      0.99      0.94      4738
+blocked_reading_frame       0.00      0.00      0.00         0
+
+             accuracy                           0.87      6255
+            macro avg       0.60      0.52      0.54      6255
+         weighted avg       0.86      0.87      0.85      6255
+
+
+
+TEST on test/test8.csv
+-Accuracy: 0.8685759745425616
+-f1: 0.8481573177996888
+-Precision: 0.8487095551432484
+-Recall:0.8685759745425616
+Classification report:
+                       precision    recall  f1-score   support
+
+          Dubious_ORF       0.84      0.77      0.81       723
+  Uncharacterized_ORF       0.61      0.27      0.38       803
+         Verified_ORF       0.89      0.98      0.93      4759
+blocked_reading_frame       0.00      0.00      0.00         0
+           pseudogene       0.00      0.00      0.00         0
+
+             accuracy                           0.87      6285
+            macro avg       0.47      0.41      0.42      6285
+         weighted avg       0.85      0.87      0.85      6285
+
+
+
+TEST on test/test9.csv
+-Accuracy: 0.9366759888134238
+-f1: 0.9261014920137579
+-Precision: 0.9266675462053184
+-Recall:0.9366759888134238
+Classification report:
+                       precision    recall  f1-score   support
+
+          Dubious_ORF       0.69      0.34      0.45       103
+  Uncharacterized_ORF       0.74      0.41      0.53       404
+         Verified_ORF       0.95      1.00      0.97      4499
+blocked_reading_frame       0.00      0.00      0.00         0
+
+             accuracy                           0.94      5006
+            macro avg       0.59      0.44      0.49      5006
+         weighted avg       0.93      0.94      0.93      5006
+
+
+
+TEST on test/test10.csv
+-Accuracy: 0.9401742497579865
+-f1: 0.9303561916457699
+-Precision: 0.9331160803307568
+-Recall:0.9401742497579865
+Classification report:
+                       precision    recall  f1-score   support
+
+          Dubious_ORF       0.82      0.37      0.51        98
+  Uncharacterized_ORF       0.79      0.44      0.57       432
+         Verified_ORF       0.95      1.00      0.97      4635
+blocked_reading_frame       0.00      0.00      0.00         0
+
+             accuracy                           0.94      5165
+            macro avg       0.64      0.45      0.51      5165
+         weighted avg       0.93      0.94      0.93      5165
+
+
+

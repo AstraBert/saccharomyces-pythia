@@ -1,0 +1,8 @@
+human/
+data/*.json*
+data/s_cerevisiae.fasta
+scripts/__pycache__/
+scripts/notebook/
+scripts/jsonl2hfdataset.py
+scripts/write_csv.py
+test/*.fsa
