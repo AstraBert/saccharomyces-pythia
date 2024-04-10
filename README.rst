@@ -34,19 +34,6 @@ Initially conceived as a Python script that leveraged machine learning and bioin
 SacCerML: the base ML model
 ===========================
 
-
-
-Introduction
-============
-
-**saccharomyces-pythia** is the new, rebranded v1.0.0 of SacCerML. 
-
-Initially conceived as a Python script that leveraged machine learning and bioinformatics tools to predict genes in Saccharomyces cerevisiae (baker's yeast) genomic sequences, it is now a complete and AI-integrated tool that can help researchers both as a chatbot and as a ORF-predicter. 
-
-SacCerML: the base ML model
-=================
-
->>>>>>> Stashed changes
 Training
 --------
 
