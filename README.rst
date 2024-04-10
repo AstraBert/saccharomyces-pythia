@@ -137,8 +137,4 @@ The project is hereby provided under MIT license.
 
 If you are using saccharomyces-pythia for your work, please consider citing its author, `Astra Bertelli <https://astrabert.vercel.app>`_ 
 
-<<<<<<< Updated upstream
 *How was this README generated? Leveraging the power of AI with reAIdme, an HuggingChat assistant based on mistralai/Mixtral-8x7B-Instruct-v0.1. Go and give it a try at this link: <https://hf.co/chat/assistant/660d9a4f590a7924eed02a32!> 🤖*
-=======
-How was this README generated? Leveraging the power of AI with reAIdme, an HuggingChat assistant based on meta-llama/Llama-2-70b-chat-hf. Go and give it a try at this link: <https://hf.co/chat/assistant/660d9a4f590a7924eed02a32!> 🤖
->>>>>>> Stashed changes
