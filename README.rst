@@ -118,6 +118,7 @@ Try it out!
 Use the following commands to run **saccharomyces-pythia** on your computer:
 
 .. code-block:: bash
+
    docker pull ghcr.io/astrabert/saccharomyces-pythia:latest
    docker run -p 7860:7860 ghcr.io/astrabert/saccharomyces-pythia:latest
 
