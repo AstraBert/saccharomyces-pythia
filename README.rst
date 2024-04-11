@@ -12,7 +12,7 @@
    <img src="https://img.shields.io/badge/Release-v1.0.0-purple" alt="Static Badge">
    </td>
    <td>
-   <img src="https://img.shields.io/badge/Docker_image_size-7GB-red" alt="Static Badge">
+   <img src="https://img.shields.io/badge/Docker_image_size-6.46GB-red" alt="Static Badge">
    </td>
    <td>
    <img src="https://img.shields.io/badge/Supported_platforms-linux/amd64-brown" alt="Static Badge">
@@ -109,11 +109,23 @@ You can now enjoy the following upgrades, that make it user-friendly and easy to
 
 - `Gradio <https://www.gradio.app/>`_ chatbot interface running completely locally on your computer
 - Gene calling with automated ORF detection thanks to `orfipy <https://pypi.org/project/orfipy/>`_: no need for preprocessing your reads, just upload one or more FASTA files with *S. cerevisiae* DNA sequences to the chatbot.
-- AI assistant, built upon `EleutherAI/pythia-160-deduped-v0 <https://huggingface.co/EleutherAI/pythia-160m-deduped-v0>`_ finetuned on *Saccharomyces cerevisiae and its industrial applications* (Parapouli et al., 2020): this is a text-generation model that will reply to researcher questions (stil a beta feature, we become more stable in future releases).
+- AI assistant, built upon `EleutherAI/pythia-160-deduped-v0 <https://huggingface.co/EleutherAI/pythia-160m-deduped-v0>`_ finetuned on *Saccharomyces cerevisiae and its industrial applications* (Parapouli et al., 2020): this is a text-generation model that will reply to researcher questions (stil a beta feature, will become more stable in future releases).
 - Docker image to download and run the application on your computer
 
+Try it out!
+-----------
+
+Use the following commands to run **saccharomyces-pythia** on your computer:
+
+.. code-block:: bash
+   docker pull ghcr.io/astrabert/saccharomyces-pythia:latest
+   docker run -p 7860:7860 ghcr.io/astrabert/saccharomyces-pythia:latest
+
+Just wait 30s-1min, the app should then be running on port 0.0.0.0:7860 (Linux-based) or localhost:7860 (Windows-based).
+
+
 References
-----------
+==========
 
 * Saccharomyces Genome Database: <https://www.yeastgenome.org/>
 * Biopython: <https://biopython.org/>

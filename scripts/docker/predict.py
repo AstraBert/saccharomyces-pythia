@@ -16,7 +16,10 @@ def merge_fastas(fileslist):
             finale.append(line)
     fnlfl = open(finalfile, "w")
     for l in finale:
-        fnlfl.write(l)  
+        if l.endswith("\n"):
+            fnlfl.write(l)  
+        else:
+            fnlfl.write(l+"\n") 
     fnlfl.close()
     return finalfile
 
